@@ -1,0 +1,73 @@
+@import "body";
+@import "header";
+@import "nav";
+@import "slider";
+@import "footer";
+
+/* MAIN */
+.content{
+    margin: 30px;
+    color: #fff;
+
+    .content a{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+
+        .plan__Familiar{
+            background-image: url(../images/comboshake5.jpg);
+
+            .caja1{
+                transition: all 1s ease;
+                &:hover{
+                    padding: 160px 0px 0px 160px;
+
+                    .caja2{
+                        transition: all 1s ease;
+                        &:hover{
+                            padding: 160px 0px 0px 160px;
+
+                            .caja3{
+                                transition: all 1s ease;
+                                &:hover{
+                                    padding: 160px 0px 0px 160px;
+
+                                    .caja4{
+                                        transition: all 1s ease;
+                                        &:hover{
+                                            padding: 160px 0px 0px 160px;
+
+                                            .Buzzburger{
+                                                background-image: url(../images/fotoSlider5.jpg);
+
+                                                .Ofertas{
+                                                    background-image: url(../images/shakes.jpg);
+
+                                                    .Cheeseburger{
+                                                        background-image: url(../images/fotoSlider4.jpg);
+
+                                                        p{
+                                                            font-size: 20px;
+                                                            margin-right: 400px;
+                                                            margin-bottom: 400px;
+
+                                                            .burgerCaja1{
+                                                                width: 890px;
+                                                                height: 500px;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

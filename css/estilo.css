@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #000; }
+
+/* HEADER */
+.gridHeader {
+  padding: 1rem; }
+  .gridHeader .burgerIcon {
+    padding: 5px 5px 5px 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    float: left; }
+    .gridHeader .burgerIcon .burgerIcon a {
+      float: left; }
+      .gridHeader .burgerIcon .burgerIcon a .burgerIcon img {
+        width: 50px;
+        height: 60px;
+        transition: all 1s ease; }
+        .gridHeader .burgerIcon .burgerIcon a .burgerIcon img:hover {
+          transform: rotate(360deg); }
+          .gridHeader .burgerIcon .burgerIcon a .burgerIcon img:hover h1 {
+            color: #fff;
+            display: inline-block;
+            padding: 16px 0px 10px 0px;
+            margin-left: 0.6%; }
+            .gridHeader .burgerIcon .burgerIcon a .burgerIcon img:hover h1 .pedido {
+              margin-left: 53%;
+              display: inline-block;
+              border-radius: 10px; }
+              .gridHeader .burgerIcon .burgerIcon a .burgerIcon img:hover h1 .pedido .pedido a {
+                display: inline-block;
+                text-decoration: none;
+                color: #000; }
+                .gridHeader .burgerIcon .burgerIcon a .burgerIcon img:hover h1 .pedido .pedido a .pedido button {
+                  background-color: #fff;
+                  display: inline-block;
+                  width: 130px;
+                  height: 45px;
+                  border-radius: 10px;
+                  text-align: center;
+                  border: none; }
+                  .gridHeader .burgerIcon .burgerIcon a .burgerIcon img:hover h1 .pedido .pedido a .pedido button:hover {
+                    background-image: linear-gradient(to right, #ffd001, #Fff); }
+
+/* NAV */
+.navbar {
+  margin-left: 20%; }
+  .navbar .navbar-nav {
+    background-color: #161616; }
+    .navbar .navbar-nav .navbar-nav li:hover {
+      background-color: #262626; }
+      .navbar .navbar-nav .navbar-nav li:hover .navbar__subnav {
+        list-style: none;
+        position: absolute;
+        background-color: #161616;
+        margin: 40px 0px 0px 0px;
+        display: none;
+        width: 288px; }
+        .navbar .navbar-nav .navbar-nav li:hover .navbar__subnav .navbar-nav:hover > .navbar__subnav {
+          display: block;
+          z-index: 10; }
+
+/* SLIDER */
+.slider {
+  width: 95%;
+  margin: auto;
+  padding-top: 20px;
+  overflow: hidden; }
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 20s infinite alternate; }
+
+.slider li {
+  width: 100%;
+  list-style: none; }
+
+.slider img {
+  width: 100%; }
+
+@keyframes cambio {
+  0% {
+    margin-left: 0; }
+  20% {
+    margin-left: 0; }
+  25% {
+    margin-left: -100%; }
+  45% {
+    margin-left: -100%; }
+  50% {
+    margin-left: -200%; }
+  70% {
+    margin-left: -200%; }
+  75% {
+    margin-left: -300%; }
+  100% {
+    margin-left: -300%; } }
+
+/* FOOTER */
+.gridFooter {
+  background-image: linear-gradient(to right, #ffd050, #ffd03c, #ffc33c, #ffd03c, #ffd050); }
+  .gridFooter h3 {
+    display: inline-block;
+    color: #000;
+    padding: 60px;
+    margin: 25px 0px 20px 400px;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif; }
+    .gridFooter h3 #imgApp {
+      margin: 45px 0px 10px 0px; }
+      .gridFooter h3 #imgApp .botonDescargar button {
+        width: 150px;
+        height: 50px;
+        background-color: #3b72c5;
+        border: 0;
+        border-radius: 10px; }
+        .gridFooter h3 #imgApp .botonDescargar button .botonDescargar button a {
+          color: #fff;
+          text-decoration: none;
+          font-family: 'Kanit', sans-serif; }
+          .gridFooter h3 #imgApp .botonDescargar button .botonDescargar button a .marca__Logo {
+            display: inline-block;
+            margin: 30px 0px 30px 920px;
+            background-color: #5f85be;
+            padding: 1px 10px 0px 10px;
+            border-radius: 10px; }
+            .gridFooter h3 #imgApp .botonDescargar button .botonDescargar button a .marca__Logo .logo__footer {
+              background-color: #fff;
+              padding: 5px 5px 5px 10px;
+              width: 60px;
+              height: 60px;
+              margin-bottom: 18px;
+              margin-left: 87%;
+              display: inline-block;
+              border-radius: 15px; }
+              .gridFooter h3 #imgApp .botonDescargar button .botonDescargar button a .marca__Logo .logo__footer h5 {
+                color: #000;
+                display: inline-block;
+                margin-left: 00.6%; }
+                .gridFooter h3 #imgApp .botonDescargar button .botonDescargar button a .marca__Logo .logo__footer h5 .h5footer {
+                  display: inline-block;
+                  position: absolute;
+                  margin-left: 1rem; }
+                  .gridFooter h3 #imgApp .botonDescargar button .botonDescargar button a .marca__Logo .logo__footer h5 .h5footer .footer__Options {
+                    list-style-type: none;
+                    height: 54px;
+                    width: 600px;
+                    position: absolute; }
+                    .gridFooter h3 #imgApp .botonDescargar button .botonDescargar button a .marca__Logo .logo__footer h5 .h5footer .footer__Options .footer__Options li {
+                      display: inline-block;
+                      text-align: center; }
+                      .gridFooter h3 #imgApp .botonDescargar button .botonDescargar button a .marca__Logo .logo__footer h5 .h5footer .footer__Options .footer__Options li .footer__Options li a {
+                        text-decoration: none;
+                        display: inline-block;
+                        color: #000;
+                        padding: 20px 30px 0px 40px;
+                        font-size: 13px;
+                        font-family: 'Kanit', sans-serif; }
+
+/* MAIN */
+.content {
+  margin: 30px;
+  color: #fff; }
+  .content .content a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff; }
+    .content .content a .plan__Familiar {
+      background-image: url(../images/comboshake5.jpg); }
+      .content .content a .plan__Familiar .caja1 {
+        transition: all 1s ease; }
+        .content .content a .plan__Familiar .caja1:hover {
+          padding: 160px 0px 0px 160px; }
+          .content .content a .plan__Familiar .caja1:hover .caja2 {
+            transition: all 1s ease; }
+            .content .content a .plan__Familiar .caja1:hover .caja2:hover {
+              padding: 160px 0px 0px 160px; }
+              .content .content a .plan__Familiar .caja1:hover .caja2:hover .caja3 {
+                transition: all 1s ease; }
+                .content .content a .plan__Familiar .caja1:hover .caja2:hover .caja3:hover {
+                  padding: 160px 0px 0px 160px; }
+                  .content .content a .plan__Familiar .caja1:hover .caja2:hover .caja3:hover .caja4 {
+                    transition: all 1s ease; }
+                    .content .content a .plan__Familiar .caja1:hover .caja2:hover .caja3:hover .caja4:hover {
+                      padding: 160px 0px 0px 160px; }
+                      .content .content a .plan__Familiar .caja1:hover .caja2:hover .caja3:hover .caja4:hover .Buzzburger {
+                        background-image: url(../images/fotoSlider5.jpg); }
+                        .content .content a .plan__Familiar .caja1:hover .caja2:hover .caja3:hover .caja4:hover .Buzzburger .Ofertas {
+                          background-image: url(../images/shakes.jpg); }
+                          .content .content a .plan__Familiar .caja1:hover .caja2:hover .caja3:hover .caja4:hover .Buzzburger .Ofertas .Cheeseburger {
+                            background-image: url(../images/fotoSlider4.jpg); }
+                            .content .content a .plan__Familiar .caja1:hover .caja2:hover .caja3:hover .caja4:hover .Buzzburger .Ofertas .Cheeseburger p {
+                              font-size: 20px;
+                              margin-right: 400px;
+                              margin-bottom: 400px; }
+                              .content .content a .plan__Familiar .caja1:hover .caja2:hover .caja3:hover .caja4:hover .Buzzburger .Ofertas .Cheeseburger p .burgerCaja1 {
+                                width: 890px;
+                                height: 500px; }
