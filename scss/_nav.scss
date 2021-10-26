@@ -3,15 +3,15 @@
     margin-left: 20%;
 
     .navbar-nav{
-        background-color: #161616;
+        @include condicion ($navcolor);
 
         .navbar-nav li:hover{
-            background-color: #262626;
+            @include condicion ($navhovcolor);
 
             .navbar__subnav{
                 list-style: none;
                 position: absolute;
-                background-color: #161616;
+                background-color: $navcolor;
                 margin: 40px 0px 0px 0px;
                 display: none;
                 width: 288px;

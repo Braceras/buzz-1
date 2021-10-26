@@ -3,6 +3,24 @@
 @import "nav";
 @import "slider";
 @import "footer";
+@import "variables";
+
+@mixin condicion ($color) {
+    background-color: ($color);
+
+    @if $color == $bgcolor{
+        color: #fff;
+    }
+    @else if $color == $colorfoot{
+        color: #000;
+    }
+        @else if $color == $navcolor{
+            color: #fff;
+        }
+            @else if $color == $navhovcolor{
+                color: #fff;
+            }
+}
 
 /* MAIN */
 .content{

@@ -4,7 +4,7 @@
 
     .burgerIcon{
         padding: 5px 5px 5px 10px;
-        background-color: #fff;
+        background-color: $color;
         border-radius: 20px;
         width: 70px;
         height: 70px;
@@ -22,7 +22,7 @@
                     transform: rotate(360deg);
 
                     h1{
-                        color: #fff;
+                        color: $color;
                         display: inline-block;
                         padding: 16px 0px 10px 0px;
                         margin-left: 0.6%;
@@ -38,7 +38,7 @@
                                 color: #000;
 
                                 .pedido button{
-                                    background-color: #fff;
+                                    background-color: $color;
                                     display: inline-block;
                                     width: 130px;
                                     height: 45px;
@@ -47,7 +47,7 @@
                                     border: none;
 
                                     &:hover{
-                                        background-image: linear-gradient(to right, rgb(255, 208, 1), #Fff);
+                                        background-image: linear-gradient(to right, rgb(255, 208, 1), $color);
                                     }
                                 }
                             }
